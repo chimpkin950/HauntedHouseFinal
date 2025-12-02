@@ -18,6 +18,7 @@ public class MapFollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // FIXME VECTOR3 PARAM
+        mapPosition.rectTransform.localPosition = new Vector3(0f,0f,0f);
     }
 }
